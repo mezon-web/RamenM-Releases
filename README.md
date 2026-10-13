@@ -5,18 +5,20 @@
 写真風の食材を自由に盛り付けて、ローカルAIの審査員に採点・評論してもらうWindowsゲームです。
 具材186種類、スープ24種類、麺20種類、器24種類、香味油・調味料12種類。王道の一杯も、とんでもない創作も作れます。
 
-**[配布版 v0.4.19 をダウンロード](https://github.com/mezon-web/RamenM-Releases/releases/tag/v0.4.19)**
+**[検証版 v0.4.30 をダウンロード](https://github.com/mezon-web/RamenM-Releases/releases/tag/v0.4.30)**
+
+v0.4.30は評論改善の **Pre-release** です。本文と改善案のずれ、不自然な説明、「別の評論家に頼む」で同じ文章になる問題が残っています。詳細はReleaseの説明をご確認ください。[通常配布版 v0.4.19はこちら](https://github.com/mezon-web/RamenM-Releases/releases/tag/v0.4.19)。
 
 ![ラーメンスタジオの画面](assets/game.png)
 
 ## ダウンロード
 
-**[Windows用ZIP・約217MB](https://github.com/mezon-web/RamenM-Releases/releases/download/v0.4.19/RamenStudio-v0.4.19-win-x64.zip)** をダウンロードしてください。AIモデルは未取得の場合だけ、アプリ内から約2.74GBを一度取得します。
+**[Windows用ZIP・検証版 v0.4.30・約217MB](https://github.com/mezon-web/RamenM-Releases/releases/download/v0.4.30/RamenStudio-v0.4.30-win-x64.zip)** をダウンロードしてください。AIモデルは未取得の場合だけ、アプリ内から約2.74GBを一度取得します。
 
 ### 起動する
 
 1. 通常ZIPを右クリックし、「すべて展開」を選びます。
-2. `ラーメンスタジオ-v0.4.19` フォルダ内の **ラーメンスタジオ.exe** を起動します。
+2. `ラーメンスタジオ-v0.4.30` フォルダ内の **ラーメンスタジオ.exe** を起動します。
 3. AIモデルが未取得なら、上部の **AIの準備** からダウンロードします。取得中も盛り付けできます。
 
 一度取得したモデルは、次回起動やアプリ更新後も使えます。中断したダウンロードは続きから再開できます。
@@ -32,7 +34,8 @@ GitHubの「Source code (zip / tar.gz)」は、このページの説明書と画
 - お品書き右端や盛り付け画面の **空にする** で、麺・具材・香味をまとめて外せます。器とスープは残り、取り消しで元に戻せます。
 - **♪ BGM ON / ♪ BGM OFF** でBGMの状態を確認・切り替えできます。設定は次回起動時にも引き継ぎます。
 - **へい、お待ち！** で審査へ。AIの見立てがまとまったら **詳細評価を見る** を押します。
-- **別の評論家に頼む** で、同じ点数と指摘を保った別の評論を楽しめます。
+- **別の評論家に頼む** で、同じ点数と指摘をもとに評論を作り直せます。検証版では同じ文章になる場合があります。
+- 右上の歯車からCPUスレッド数、審査中の優先度、審査後にAIをメモリへ残す時間を設定できます。
 - 詳細評価に表示される **審査員の命名** を読んで、気に入った名前は **この名前にする** で採用できます。
 - 写真をPNGで保存したり、レシピファイルを保存・読み込みしたりできます。過去の高評価の一杯は殿堂入りランキングから見られます。
 - ランキングでは、審査当時の写真と詳細評価も開けます。
@@ -55,10 +58,10 @@ AIソフトの別途インストール、アカウント、APIキーは不要で
 起動中のアプリを閉じてから、新しい版を別フォルダへ展開して起動してください。
 自動保存・殿堂入り・審査結果はPC内に保存され、モデルは `%LOCALAPPDATA%\RamenStudio\models` の共通保存先を再利用します。別PCへ作品を持ち運ぶには、ゲーム内で保存したレシピファイルを使ってください。
 
-配布ファイルのSHA-256は、Releaseの [SHA256SUMS.txt](https://github.com/mezon-web/RamenM-Releases/releases/download/v0.4.19/SHA256SUMS.txt) で確認できます。
+配布ファイルのSHA-256は、Releaseの [SHA256SUMS.txt](https://github.com/mezon-web/RamenM-Releases/releases/download/v0.4.30/SHA256SUMS.txt) で確認できます。
 
 ```powershell
-Get-FileHash -Algorithm SHA256 -LiteralPath '.\RamenStudio-v0.4.19-win-x64.zip'
+Get-FileHash -Algorithm SHA256 -LiteralPath '.\RamenStudio-v0.4.30-win-x64.zip'
 ```
 
 このリポジトリは配布版と利用者向け文書を管理します。開発ソースのリポジトリは非公開です。

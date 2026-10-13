@@ -5,18 +5,18 @@
 写真風の食材を自由に盛り付けて、ローカルAIの審査員に採点・評論してもらうWindowsゲームです。
 具材186種類、スープ24種類、麺20種類、器24種類、香味油・調味料12種類。王道の一杯も、とんでもない創作も作れます。
 
-**[配布版 v0.4.15 をダウンロード](https://github.com/mezon-web/RamenM-Releases/releases/tag/v0.4.15)**
+**[配布版 v0.4.16 をダウンロード](https://github.com/mezon-web/RamenM-Releases/releases/tag/v0.4.16)**
 
 ![ラーメンスタジオの画面](assets/game.png)
 
 ## ダウンロード
 
-**[Windows用ZIP・約217MB](https://github.com/mezon-web/RamenM-Releases/releases/download/v0.4.15/RamenStudio-v0.4.15-win-x64.zip)** をダウンロードしてください。AIモデルは未取得の場合だけ、アプリ内から約2.74GBを一度取得します。
+**[Windows用ZIP・約217MB](https://github.com/mezon-web/RamenM-Releases/releases/download/v0.4.16/RamenStudio-v0.4.16-win-x64.zip)** をダウンロードしてください。AIモデルは未取得の場合だけ、アプリ内から約2.74GBを一度取得します。
 
 ### 起動する
 
 1. 通常ZIPを右クリックし、「すべて展開」を選びます。
-2. `ラーメンスタジオ-v0.4.15` フォルダ内の **ラーメンスタジオ.exe** を起動します。
+2. `ラーメンスタジオ-v0.4.16` フォルダ内の **ラーメンスタジオ.exe** を起動します。
 3. AIモデルが未取得なら、上部の **AIの準備** からダウンロードします。取得中も盛り付けできます。
 
 一度取得したモデルは、次回起動やアプリ更新後も使えます。中断したダウンロードは続きから再開できます。
@@ -28,6 +28,8 @@ GitHubの「Source code (zip / tar.gz)」は、このページの説明書と画
 
 - お品書きから器・スープ・麺・具材を選びます。スープと麺は一種類ずつ、具材は好きなだけ追加できます。
 - 具材をドラッグで移動。選択枠の端で大きさ、上のツマミで角度を調整できます。反転・削除・手前・奥・沈める・浮かすのボタンも使えます。
+- お品書き右端や盛り付け画面の **空にする** で、麺・具材・香味をまとめて外せます。器とスープは残り、取り消しで元に戻せます。
+- **♪ BGM ON / ♪ BGM OFF** でBGMの状態を確認・切り替えできます。設定は次回起動時にも引き継ぎます。
 - **へい、お待ち！** で審査へ。AIの見立てがまとまったら **詳細評価を見る** を押します。
 - **別の評論家に頼む** で、同じ点数と指摘を保った別の評論を楽しめます。
 - 写真をPNGで保存したり、レシピファイルを保存・読み込みしたりできます。過去の高評価の一杯は殿堂入りランキングから見られます。
@@ -50,10 +52,10 @@ AIソフトの別途インストール、アカウント、APIキーは不要で
 起動中のアプリを閉じてから、新しい版を別フォルダへ展開して起動してください。
 自動保存・殿堂入り・審査結果はPC内に保存され、モデルは `%LOCALAPPDATA%\RamenStudio\models` の共通保存先を再利用します。別PCへ作品を持ち運ぶには、ゲーム内で保存したレシピファイルを使ってください。
 
-配布ファイルのSHA-256は、Releaseの [SHA256SUMS.txt](https://github.com/mezon-web/RamenM-Releases/releases/download/v0.4.15/SHA256SUMS.txt) で確認できます。
+配布ファイルのSHA-256は、Releaseの [SHA256SUMS.txt](https://github.com/mezon-web/RamenM-Releases/releases/download/v0.4.16/SHA256SUMS.txt) で確認できます。
 
 ```powershell
-Get-FileHash -Algorithm SHA256 -LiteralPath '.\RamenStudio-v0.4.15-win-x64.zip'
+Get-FileHash -Algorithm SHA256 -LiteralPath '.\RamenStudio-v0.4.16-win-x64.zip'
 ```
 
 このリポジトリは配布版と利用者向け文書を管理します。開発ソースのリポジトリは非公開です。

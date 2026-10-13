@@ -5,22 +5,23 @@
 写真風の食材を自由に盛り付けて、ローカルAIの審査員に採点・評論してもらうWindowsゲームです。
 具材186種類、スープ24種類、麺20種類、器24種類、香味油・調味料12種類。王道の一杯も、とんでもない創作も作れます。
 
-**[配布版 v0.4.16 をダウンロード](https://github.com/mezon-web/RamenM-Releases/releases/tag/v0.4.16)**
+**[配布版 v0.4.17 をダウンロード](https://github.com/mezon-web/RamenM-Releases/releases/tag/v0.4.17)**
 
 ![ラーメンスタジオの画面](assets/game.png)
 
 ## ダウンロード
 
-**[Windows用ZIP・約217MB](https://github.com/mezon-web/RamenM-Releases/releases/download/v0.4.16/RamenStudio-v0.4.16-win-x64.zip)** をダウンロードしてください。AIモデルは未取得の場合だけ、アプリ内から約2.74GBを一度取得します。
+**[Windows用ZIP・約217MB](https://github.com/mezon-web/RamenM-Releases/releases/download/v0.4.17/RamenStudio-v0.4.17-win-x64.zip)** をダウンロードしてください。AIモデルは未取得の場合だけ、アプリ内から約2.74GBを一度取得します。
 
 ### 起動する
 
 1. 通常ZIPを右クリックし、「すべて展開」を選びます。
-2. `ラーメンスタジオ-v0.4.16` フォルダ内の **ラーメンスタジオ.exe** を起動します。
+2. `ラーメンスタジオ-v0.4.17` フォルダ内の **ラーメンスタジオ.exe** を起動します。
 3. AIモデルが未取得なら、上部の **AIの準備** からダウンロードします。取得中も盛り付けできます。
 
 一度取得したモデルは、次回起動やアプリ更新後も使えます。中断したダウンロードは続きから再開できます。
 すでに取得済みのモデルがあれば、モデルなし版でも再ダウンロードしません。
+モデルの取得にはWindowsのプロキシ設定（手動設定・自動構成スクリプトなど）を使用します。
 
 GitHubの「Source code (zip / tar.gz)」は、このページの説明書と画像です。ゲーム本体は上記の配布ファイルを取得してください。
 
@@ -52,10 +53,10 @@ AIソフトの別途インストール、アカウント、APIキーは不要で
 起動中のアプリを閉じてから、新しい版を別フォルダへ展開して起動してください。
 自動保存・殿堂入り・審査結果はPC内に保存され、モデルは `%LOCALAPPDATA%\RamenStudio\models` の共通保存先を再利用します。別PCへ作品を持ち運ぶには、ゲーム内で保存したレシピファイルを使ってください。
 
-配布ファイルのSHA-256は、Releaseの [SHA256SUMS.txt](https://github.com/mezon-web/RamenM-Releases/releases/download/v0.4.16/SHA256SUMS.txt) で確認できます。
+配布ファイルのSHA-256は、Releaseの [SHA256SUMS.txt](https://github.com/mezon-web/RamenM-Releases/releases/download/v0.4.17/SHA256SUMS.txt) で確認できます。
 
 ```powershell
-Get-FileHash -Algorithm SHA256 -LiteralPath '.\RamenStudio-v0.4.16-win-x64.zip'
+Get-FileHash -Algorithm SHA256 -LiteralPath '.\RamenStudio-v0.4.17-win-x64.zip'
 ```
 
 このリポジトリは配布版と利用者向け文書を管理します。開発ソースのリポジトリは非公開です。

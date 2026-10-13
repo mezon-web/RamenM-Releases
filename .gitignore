@@ -1,0 +1,7 @@
+*.zip
+*.001
+*.002
+*.gguf
+*.part
+.DS_Store
+Thumbs.db

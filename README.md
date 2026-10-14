@@ -5,18 +5,18 @@
 写真風の食材を自由に盛り付けて、ローカルAIの審査員に採点・評論してもらうWindowsゲームです。
 具材186種類、スープ24種類、麺20種類、器24種類、香味油・調味料12種類。王道の一杯も、とんでもない創作も作れます。
 
-**[配布版 v0.4.41 をダウンロード](https://github.com/mezon-web/RamenM-Releases/releases/tag/v0.4.41)**
+**[配布版 v0.4.42 をダウンロード](https://github.com/mezon-web/RamenM-Releases/releases/tag/v0.4.42)**
 
 ![ラーメンスタジオの画面](assets/game.png)
 
 ## ダウンロード
 
-**[Windows用7z・v0.4.41（約144.5MB）](https://github.com/mezon-web/RamenM-Releases/releases/download/v0.4.41/RamenStudio-v0.4.41-win-x64.7z)** をダウンロードしてください。AIモデルは未取得の場合だけ、アプリ内から約2.74GBを一度取得します。
+**[Windows用7z・v0.4.42（約144.5MB）](https://github.com/mezon-web/RamenM-Releases/releases/download/v0.4.42/RamenStudio-v0.4.42-win-x64.7z)** をダウンロードしてください。AIモデルは未取得の場合だけ、アプリ内から約2.74GBを一度取得します。
 
 ### 起動する
 
 1. 7zファイルを [7-Zip](https://7-zip.org/) などで、フォルダごと展開します。
-2. `ラーメンスタジオ-v0.4.41` フォルダ内の **ラーメンスタジオ.exe** を起動します。
+2. `ラーメンスタジオ-v0.4.42` フォルダ内の **ラーメンスタジオ.exe** を起動します。
 3. AIモデルが未取得なら、上部の **AIの準備** からダウンロードします。取得中も盛り付けできます。
 4. 食材を盛り付けて **へい、お待ち！** を押すと、審査が始まります。
 
@@ -64,7 +64,7 @@ AIソフトの別途インストール、アカウント、APIキーは不要で
 
 ## 今回の採点
 
-良い一杯は80点台、非常に高い完成度なら90点以上。素材の欠けや投入数だけで点数の上限を決めず、空の器は0点です。
+良い一杯は80点台、非常に高い完成度なら90点以上。麺料理としての成立、実量の釣り合い、評論にある長所と課題を確認します。味付けのある汁なし麺や具なしの一杯も、組み合わせから評価します。空の器は0点です。
 
 採点基準の変更に合わせ、殿堂入りランキングは新しく開始します。保存レシピと取得済みモデルは引き続き使えます。
 
@@ -73,10 +73,10 @@ AIソフトの別途インストール、アカウント、APIキーは不要で
 起動中のアプリを閉じてから、新しい版を別フォルダへ展開して起動してください。
 自動保存・殿堂入り・審査結果はPC内に保存され、モデルは `%LOCALAPPDATA%\RamenStudio\models` の共通保存先を再利用します。別PCへ作品を持ち運ぶには、ゲーム内で保存したレシピファイルを使ってください。
 
-配布ファイルのSHA-256は、Releaseの [SHA256SUMS.txt](https://github.com/mezon-web/RamenM-Releases/releases/download/v0.4.41/SHA256SUMS.txt) で確認できます。
+配布ファイルのSHA-256は、Releaseの [SHA256SUMS.txt](https://github.com/mezon-web/RamenM-Releases/releases/download/v0.4.42/SHA256SUMS.txt) で確認できます。
 
 ```powershell
-Get-FileHash -Algorithm SHA256 -LiteralPath '.\RamenStudio-v0.4.41-win-x64.7z'
+Get-FileHash -Algorithm SHA256 -LiteralPath '.\RamenStudio-v0.4.42-win-x64.7z'
 ```
 
 このリポジトリは配布版と利用者向け文書を管理します。開発ソースのリポジトリは非公開です。

@@ -11,11 +11,11 @@
 
 ## ダウンロード
 
-**[Windows用ZIP・v0.4.38](https://github.com/mezon-web/RamenM-Releases/releases/download/v0.4.38/RamenStudio-v0.4.38-win-x64.zip)** をダウンロードしてください。AIモデルは未取得の場合だけ、アプリ内から約2.74GBを一度取得します。
+**[Windows用7z・v0.4.38（約144.5MB）](https://github.com/mezon-web/RamenM-Releases/releases/download/v0.4.38/RamenStudio-v0.4.38-win-x64.7z)** をダウンロードしてください。AIモデルは未取得の場合だけ、アプリ内から約2.74GBを一度取得します。
 
 ### 起動する
 
-1. 通常ZIPを右クリックし、「すべて展開」を選びます。
+1. 7zファイルを [7-Zip](https://7-zip.org/) などで、フォルダごと展開します。
 2. `ラーメンスタジオ-v0.4.38` フォルダ内の **ラーメンスタジオ.exe** を起動します。
 3. AIモデルが未取得なら、上部の **AIの準備** からダウンロードします。取得中も盛り付けできます。
 4. 食材を盛り付けて **へい、お待ち！** を押すと、審査が始まります。
@@ -62,7 +62,7 @@ AIソフトの別途インストール、アカウント、APIキーは不要で
 配布ファイルのSHA-256は、Releaseの [SHA256SUMS.txt](https://github.com/mezon-web/RamenM-Releases/releases/download/v0.4.38/SHA256SUMS.txt) で確認できます。
 
 ```powershell
-Get-FileHash -Algorithm SHA256 -LiteralPath '.\RamenStudio-v0.4.38-win-x64.zip'
+Get-FileHash -Algorithm SHA256 -LiteralPath '.\RamenStudio-v0.4.38-win-x64.7z'
 ```
 
 このリポジトリは配布版と利用者向け文書を管理します。開発ソースのリポジトリは非公開です。

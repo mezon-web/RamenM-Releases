@@ -5,18 +5,18 @@
 写真風の食材を自由に盛り付けて、ローカルAIの審査員に採点・評論してもらうWindowsゲームです。
 具材186種類、スープ24種類、麺20種類、器24種類、香味油・調味料12種類。王道の一杯も、とんでもない創作も作れます。
 
-**[配布版 v0.4.48 をダウンロード](https://github.com/mezon-web/RamenM-Releases/releases/tag/v0.4.48)**
+**[配布版 v0.4.49 をダウンロード](https://github.com/mezon-web/RamenM-Releases/releases/tag/v0.4.49)**
 
 ![ラーメンスタジオの画面](assets/game.png)
 
 ## ダウンロード
 
-**[Windows用7z・v0.4.48（約144.5MB）](https://github.com/mezon-web/RamenM-Releases/releases/download/v0.4.48/RamenStudio-v0.4.48-win-x64.7z)** をダウンロードしてください。AIモデルは未取得の場合だけ、アプリ内から約2.74GBを一度取得します。
+**[Windows用7z・v0.4.49（約144.5MB）](https://github.com/mezon-web/RamenM-Releases/releases/download/v0.4.49/RamenStudio-v0.4.49-win-x64.7z)** をダウンロードしてください。AIモデルは未取得の場合だけ、アプリ内から約2.74GBを一度取得します。
 
 ### 起動する
 
 1. 7zファイルを [7-Zip](https://7-zip.org/) などで、フォルダごと展開します。
-2. `ラーメンスタジオ-v0.4.48` フォルダ内の **ラーメンスタジオ.exe** を起動します。
+2. `ラーメンスタジオ-v0.4.49` フォルダ内の **ラーメンスタジオ.exe** を起動します。
 3. AIモデルが未取得なら、上部の **AIの準備** からダウンロードします。取得中も盛り付けできます。
 4. 食材を盛り付けて **へい、お待ち！** を押すと、審査が始まります。
 
@@ -73,10 +73,10 @@ v0.4.46からの殿堂入りランキングを引き続き利用できます。�
 起動中のアプリを閉じてから、新しい版を別フォルダへ展開して起動してください。
 自動保存・殿堂入り・審査結果はPC内に保存され、モデルは `%LOCALAPPDATA%\RamenStudio\models` の共通保存先を再利用します。別PCへ作品を持ち運ぶには、ゲーム内で保存したレシピファイルを使ってください。
 
-配布ファイルのSHA-256は、Releaseの [SHA256SUMS.txt](https://github.com/mezon-web/RamenM-Releases/releases/download/v0.4.48/SHA256SUMS.txt) で確認できます。
+配布ファイルのSHA-256は、Releaseの [SHA256SUMS.txt](https://github.com/mezon-web/RamenM-Releases/releases/download/v0.4.49/SHA256SUMS.txt) で確認できます。
 
 ```powershell
-Get-FileHash -Algorithm SHA256 -LiteralPath '.\RamenStudio-v0.4.48-win-x64.7z'
+Get-FileHash -Algorithm SHA256 -LiteralPath '.\RamenStudio-v0.4.49-win-x64.7z'
 ```
 
 このリポジトリは配布版と利用者向け文書を管理します。開発ソースのリポジトリは非公開です。

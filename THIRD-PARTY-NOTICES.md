@@ -2,13 +2,13 @@
 
 | コンポーネント | 版・ライセンス |
 | --- | --- |
-| Electron | 44.7.0 / MIT。Chromiumなどの表記はアプリ本体フォルダのLICENSES.chromium.html |
+| Electron | 44.7.0 / MIT。Chromiumなどの表記はruntimeのLICENSES.chromium.html |
 | llama.cpp | b11429、CPU x64・Vulkan / MIT |
 | Gemma 4 E4B Q4_0 | ggml-org変換GGUF / Apache-2.0 |
 | Qwen3.5 4B Q4_K_M（旧版） | unsloth変換GGUF / Apache-2.0 |
 | Microsoft Visual C++ Runtime | 再頒布ライセンスに従って必要なDLLを同梱 |
 
-元のライセンスとモデルカードは、配布フォルダの「アプリ本体」内の `LICENSE`、`LICENSES.chromium.html`、`licenses`、`resources/ai/llama/LICENSE-LLVM-OpenMP` に保持しています。
+元のライセンスとモデルカードは、配布フォルダのruntime内の `LICENSE`、`LICENSES.chromium.html`、`licenses`、`resources/ai/llama/LICENSE-LLVM-OpenMP` に保持しています。
 
 - [Gemmaモデル](https://huggingface.co/google/gemma-4-E4B-it)
 - [Gemma GGUF取得元](https://huggingface.co/ggml-org/gemma-4-E4B-it-GGUF)

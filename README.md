@@ -5,18 +5,18 @@
 写真風の食材を自由に盛り付けて、ローカルAIの審査員に採点・評論してもらうWindowsゲームです。
 具材186種類、スープ24種類、麺20種類、器24種類、香味油・調味料12種類。王道の一杯も、とんでもない創作も作れます。
 
-**[配布版 v0.4.53 をダウンロード](https://github.com/mezon-web/RamenM-Releases/releases/tag/v0.4.53)**
+**[配布版 v0.4.54 をダウンロード](https://github.com/mezon-web/RamenM-Releases/releases/tag/v0.4.54)**
 
 ![ラーメンスタジオの画面](assets/game.png)
 
 ## ダウンロード
 
-**[Windows用7z・v0.4.53（約145.2MB）](https://github.com/mezon-web/RamenM-Releases/releases/download/v0.4.53/RamenStudio-v0.4.53-win-x64.7z)** をダウンロードしてください。AIモデルは未取得の場合だけ、アプリ内から約4.59GBを一度取得します。
+**[Windows用7z・v0.4.54（約145.2MB）](https://github.com/mezon-web/RamenM-Releases/releases/download/v0.4.54/RamenStudio-v0.4.54-win-x64.7z)** をダウンロードしてください。AIモデルは未取得の場合だけ、アプリ内から約4.59GBを一度取得します。
 
 ### 起動する
 
 1. 7zファイルを [7-Zip](https://7-zip.org/) などで、フォルダごと展開します。
-2. `ラーメンスタジオ-v0.4.53` フォルダ内の **ラーメンスタジオ.exe** を起動します。
+2. `ラーメンスタジオ-v0.4.54` フォルダ内の **ラーメンスタジオ.exe** を起動します。
 3. AIモデルが未取得なら、上部の **AIの準備** からダウンロードします。取得中も盛り付けできます。
 4. 食材を盛り付けて **へい、お待ち！** を押すと、審査が始まります。
 
@@ -32,6 +32,7 @@ GitHubの「Source code (zip / tar.gz)」は、このページの説明書と画
 
 ## 遊び方
 
+- 具材の **すべて** は、肉・卵／乳製品・野菜／薬味・きのこ・魚介／海藻・惣菜・甘味・果物の順にまとまっています。後から追加した具材も、それぞれの種類の中にあります。
 - お品書きから器・スープ・麺・具材を選びます。スープと麺は一種類ずつ、具材は好きなだけ追加できます。
 - 具材をドラッグで移動。選択枠の端で大きさ、上のツマミで角度を調整できます。反転・削除・手前・奥・沈める・浮かすのボタンも使えます。
 - お品書き右端や盛り付け画面の **空にする** で、麺・具材・香味をまとめて外せます。器とスープは残り、取り消しで元に戻せます。
@@ -80,10 +81,10 @@ AIソフトの別途インストール、アカウント、APIキーは不要で
 起動中のアプリを閉じてから、新しい版を別フォルダへ展開して起動してください。
 自動保存・殿堂入り・審査結果はPC内に保存され、モデルは `%LOCALAPPDATA%\RamenStudio\models` の共通保存先を再利用します。別PCへ作品を持ち運ぶには、ゲーム内で保存したレシピファイルを使ってください。
 
-配布ファイルのSHA-256は、Releaseの [SHA256SUMS.txt](https://github.com/mezon-web/RamenM-Releases/releases/download/v0.4.53/SHA256SUMS.txt) で確認できます。
+配布ファイルのSHA-256は、Releaseの [SHA256SUMS.txt](https://github.com/mezon-web/RamenM-Releases/releases/download/v0.4.54/SHA256SUMS.txt) で確認できます。
 
 ```powershell
-Get-FileHash -Algorithm SHA256 -LiteralPath '.\RamenStudio-v0.4.53-win-x64.7z'
+Get-FileHash -Algorithm SHA256 -LiteralPath '.\RamenStudio-v0.4.54-win-x64.7z'
 ```
 
 このリポジトリは配布版と利用者向け文書を管理します。開発ソースのリポジトリは非公開です。

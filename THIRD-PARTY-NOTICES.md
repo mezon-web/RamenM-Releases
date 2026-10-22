@@ -18,4 +18,3 @@
 - [Electron](https://www.electronjs.org/)
 
 食品・器・背景は生成画像です。BGMはComfyUIで生成し、ループ用に調整したOgg Opus音源です。
-ビルド・検証用のPython、Playwright、sharp、音楽生成モデルはゲームの実行には必要ありません。

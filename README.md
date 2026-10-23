@@ -11,7 +11,7 @@
 
 ## ダウンロード
 
-**[Windows用7z・v0.4.54（約145.2MB）](https://github.com/mezon-web/RamenM-Releases/releases/download/v0.4.54/RamenStudio-v0.4.54-win-x64.7z)** をダウンロードしてください。AIモデルは未取得の場合だけ、アプリ内から約4.59GBを一度取得します。
+**[Windows用7z・v0.4.54（約145.2MB）](https://github.com/mezon-web/RamenM-Releases/releases/download/v0.4.54/RamenStudio-v0.4.54.7z)** をダウンロードしてください。AIモデルは未取得の場合だけ、アプリ内から約4.59GBを一度取得します。
 
 ### 起動する
 
@@ -84,7 +84,7 @@ AIソフトの別途インストール、アカウント、APIキーは不要で
 配布ファイルのSHA-256は、Releaseの [SHA256SUMS.txt](https://github.com/mezon-web/RamenM-Releases/releases/download/v0.4.54/SHA256SUMS.txt) で確認できます。
 
 ```powershell
-Get-FileHash -Algorithm SHA256 -LiteralPath '.\RamenStudio-v0.4.54-win-x64.7z'
+Get-FileHash -Algorithm SHA256 -LiteralPath '.\RamenStudio-v0.4.54.7z'
 ```
 
 このリポジトリでは配布版と利用者向け文書を公開しています。
